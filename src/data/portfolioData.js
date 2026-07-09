@@ -105,7 +105,8 @@ export const technicalSkills = {
     {
       title: "Databases",
       skills: [
-        { name: "MongoDB", level: 82 }
+        { name: "MongoDB", level: 82 },
+        { name: "MySQL", level: 80 }
       ]
     },
     {
@@ -209,7 +210,7 @@ export const internshipsList = [
 // Brand New Soft Skills Data (Left unchanged)
 export const softSkillsList = [
   { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
-  { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
+  { name: "Continuous Learning", icon: "📚", desc: "Constantly exploring new frameworks, coding design patterns, and modern practices to ship clean, efficient code." },
   { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
   { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
   { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
