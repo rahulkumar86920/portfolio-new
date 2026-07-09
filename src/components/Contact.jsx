@@ -120,8 +120,14 @@ const Contact = () => {
                     name="first_name"
                     placeholder="First Name" 
                     required
-                    className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white font-medium rounded-none"
+                    className="peer w-full bg-transparent border-b border-white/30 pb-2 text-lg focus:outline-none focus:border-white transition-all duration-300 placeholder-transparent font-medium rounded-none"
                   />
+                  <label 
+                    htmlFor="firstName" 
+                    className="absolute left-0 -top-5 text-white/80 text-sm transition-all duration-300 pointer-events-none peer-placeholder-shown:text-lg peer-placeholder-shown:text-white/60 peer-placeholder-shown:top-0 peer-focus:-top-5 peer-focus:text-white peer-focus:text-sm font-medium"
+                  >
+                    First Name
+                  </label>
                 </div>
                 <div className="relative">
                   <input 
@@ -129,8 +135,14 @@ const Contact = () => {
                     id="lastName" 
                     name="last_name"
                     placeholder="Last Name" 
-                    className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white font-medium rounded-none"
+                    className="peer w-full bg-transparent border-b border-white/30 pb-2 text-lg focus:outline-none focus:border-white transition-all duration-300 placeholder-transparent font-medium rounded-none"
                   />
+                  <label 
+                    htmlFor="lastName" 
+                    className="absolute left-0 -top-5 text-white/80 text-sm transition-all duration-300 pointer-events-none peer-placeholder-shown:text-lg peer-placeholder-shown:text-white/60 peer-placeholder-shown:top-0 peer-focus:-top-5 peer-focus:text-white peer-focus:text-sm font-medium"
+                  >
+                    Last Name
+                  </label>
                 </div>
                 <div className="relative">
                   <input 
@@ -139,21 +151,33 @@ const Contact = () => {
                     name="user_email"
                     placeholder="Email" 
                     required
-                    className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white font-medium rounded-none"
+                    className="peer w-full bg-transparent border-b border-white/30 pb-2 text-lg focus:outline-none focus:border-white transition-all duration-300 placeholder-transparent font-medium rounded-none"
                   />
+                  <label 
+                    htmlFor="email" 
+                    className="absolute left-0 -top-5 text-white/80 text-sm transition-all duration-300 pointer-events-none peer-placeholder-shown:text-lg peer-placeholder-shown:text-white/60 peer-placeholder-shown:top-0 peer-focus:-top-5 peer-focus:text-white peer-focus:text-sm font-medium"
+                  >
+                    Email Address
+                  </label>
                 </div>
               </div>
 
               {/* Right Column */}
-              <div className="flex-1 flex flex-col">
+              <div className="flex-1 flex flex-col pt-5 md:pt-0">
                 <div className="relative h-full flex flex-col">
                   <textarea 
                     id="message" 
                     name="message"
                     placeholder="Type your message here" 
                     required
-                    className="w-full h-full min-h-[120px] bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white font-medium resize-none rounded-none"
+                    className="peer w-full h-full min-h-[140px] bg-transparent border-b border-white/30 pb-2 text-lg focus:outline-none focus:border-white transition-all duration-300 placeholder-transparent font-medium resize-none rounded-none"
                   ></textarea>
+                  <label 
+                    htmlFor="message" 
+                    className="absolute left-0 -top-5 text-white/80 text-sm transition-all duration-300 pointer-events-none peer-placeholder-shown:text-lg peer-placeholder-shown:text-white/60 peer-placeholder-shown:top-0 peer-focus:-top-5 peer-focus:text-white peer-focus:text-sm font-medium"
+                  >
+                    Type your message here
+                  </label>
                 </div>
               </div>
             </div>
@@ -193,7 +217,7 @@ const Contact = () => {
                         ? 'bg-green-600 border-green-500 text-white shadow-[0_0_20px_rgba(22,163,74,0.4)]'
                         : status === 'error'
                         ? 'bg-red-800 border-red-700 text-white'
-                        : 'hover:bg-white hover:text-[#ff2a2a]'
+                        : 'hover:bg-white hover:text-[#ff2a2a] hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]'
                     }`}
                   >
                     {status === 'sending' ? (

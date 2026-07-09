@@ -33,7 +33,7 @@ export const heroContent = {
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:rahulkumar86920@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Rahul,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "#contact",
   },
   ctaResume: { text: "Download Resume", href: "https://drive.google.com/file/d/1LtXh19VvJwXxunKSMnKEOLt8MPR6zUTJ/view?usp=drive_link" },
 };
@@ -229,7 +229,7 @@ export const projects = [
     techTags: ["React", "Node.js", "MongoDB", "Express"],
     links: {
       github: "https://github.com/rahulkumar86920/Zippy_Cart",
-      frontendDemo: "https://zippy-cart-frontend.onrender.com",
+      frontendDemo: "https://zippy-cart-backend.onrender.com",
       backendApi: "https://zippy-cart-backend.onrender.com",
     },
     isFlagship: true,

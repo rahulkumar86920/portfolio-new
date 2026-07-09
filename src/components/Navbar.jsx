@@ -20,7 +20,9 @@ const Navbar = () => {
 
   const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
 
-  const hireMeMailto = `mailto:${personalInfo.emails.primary}?subject=Hiring Inquiry – Portfolio&body=Hello ${personalInfo.name},%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,`;
+  const hireMeSubject = encodeURIComponent("Hiring Inquiry - Portfolio");
+  const hireMeBody = encodeURIComponent(`Hello ${personalInfo.name},\n\nI came across your portfolio and would like to discuss an opportunity with you.\n\nLooking forward to hearing from you.\n\nBest Regards,`);
+  const hireMeMailto = `mailto:${personalInfo.emails.primary}?subject=${hireMeSubject}&body=${hireMeBody}`;
 
   return (
     <nav 

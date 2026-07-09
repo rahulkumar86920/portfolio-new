@@ -177,9 +177,9 @@ const Services = () => {
           {skillsContent.cards.map((card, index) => {
             const positions = [
               "md:absolute md:top-[10px] md:right-[5%] lg:right-[10%] rotate-2 md:rotate-6",
-              "md:absolute md:top-[450px] md:left-[5%] lg:left-[10%] -rotate-2 md:-rotate-6",
-              "md:absolute md:top-[700px] md:right-[5%] lg:right-[15%] rotate-1 md:rotate-3",
-              "md:absolute md:top-[1050px] md:left-[15%] lg:left-[25%] -rotate-1 md:-rotate-3",
+              "md:absolute md:top-[530px] md:left-[5%] lg:left-[10%] -rotate-2 md:-rotate-6",
+              "md:absolute md:top-[810px] md:right-[5%] lg:right-[15%] rotate-1 md:rotate-3",
+              "md:absolute md:top-[1090px] md:left-[15%] lg:left-[25%] -rotate-1 md:-rotate-3",
             ];
             const aosTypes = ["fade-left", "fade-right", "fade-left", "fade-right"];
             const aosDelays = ["100", "200", "300", "400"];
