@@ -1,48 +1,47 @@
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
+// portfolioData.js — Centralized configuration for Rahul Kumar's Portfolio
 // All external links, personal info, and content in one place.
-// Update this file to change any content across the entire site.
 // ============================================================
 
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  name: "Rahul Kumar",
+  firstName: "Rahul",
+  brandName: "Rahul Kumar",
+  title: "Software Developer",
+  location: "Mumbai, India",
+  phone: "",
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "rahulkumar86920@gmail.com",
+    secondary: "",
   },
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+    "B.Sc. IT graduate from D.G. Ruparel College, Mumbai. 5 months as SDE Intern at Restaverse working on React.js, React Native & FastAPI. I pick up whatever the problem needs and ship it.",
+  resumeUrl: "https://drive.google.com/file/d/1LtXh19VvJwXxunKSMnKEOLt8MPR6zUTJ/view?usp=drive_link",
 };
 
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "https://github.com/rahulkumar86920",
+  linkedin: "https://www.linkedin.com/in/rahhulkumar/",
+  instagram: "https://instagram.com/mr_rahhul",
 };
 
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
-  titleHighlight: "Full Stack & Java Developer",
+  greeting: "Hi, I'm Rahul Kumar",
+  titleHighlight: "Software Developer",
   subtitle:
-    "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
+    "I build fast, scalable applications using React, React Native, MERN Stack, and FastAPI.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:rahulkumar86920@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Rahul,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+  ctaResume: { text: "Download Resume", href: "https://drive.google.com/file/d/1LtXh19VvJwXxunKSMnKEOLt8MPR6zUTJ/view?usp=drive_link" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Rahul Kumar</span>, a software developer based in Mumbai, India, dedicated to crafting clean, functional, and highly scalable full-stack and mobile applications.<br/><br/>I'm a developer who gets things done. Whether it's building a real-time video app with WebRTC, scraping thousands of data points with Python, or shipping mobile features with React Native — I don't overthink it, I just build it. I care about clean code, fast products, and working with passionate teams.`,
+  techStack: ["React", "React Native", "FastAPI"],
 };
 
 export const skillsContent = {
@@ -81,62 +80,55 @@ export const technicalSkills = {
     {
       title: "Programming Languages",
       skills: [
-        { name: "Java", level: 90 },
-        { name: "C++", level: 85 },
+        { name: "JavaScript", level: 88 },
+        { name: "Java", level: 78 },
         { name: "Python", level: 75 }
       ]
     },
     {
       title: "Full Stack",
       skills: [
-        { name: "MERN Stack", level: 90 },
+        { name: "React", level: 90 },
         { name: "HTML", level: 95 },
         { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
+        { name: "Node.js", level: 85 }
       ]
     },
     {
-      title: "Backend",
+      title: "Backend & Mobile",
       skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
+        { name: "React Native", level: 80 },
+        { name: "FastAPI", level: 76 },
+        { name: "REST APIs", level: 85 }
       ]
     },
     {
       title: "Databases",
       skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
+        { name: "MongoDB", level: 82 }
       ]
     },
     {
-      title: "Tools & Automation",
+      title: "Tools & Workflows",
       skills: [
-        { name: "Git & GitHub", level: 90 },
-        { name: "VS Code", level: 95 },
-        { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 },
-        { name: "Antigravity", level: 80 },
-        { name: "Codex", level: 75 }
+        { name: "Git & GitHub", level: 86 },
+        { name: "VS Code", level: 90 },
+        { name: "Agile Methodologies", level: 80 }
       ]
     },
     {
       title: "Computer Science Concepts",
       skills: [
-        { name: "Data Structures", level: 88 },
-        { name: "Algorithms", level: 85 },
-        { name: "DBMS", level: 86 },
-        { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
+        { name: "Data Structures", level: 80 },
+        { name: "Algorithms", level: 78 },
+        { name: "OOP", level: 85 },
+        { name: "Software Engineering", level: 82 }
       ]
     }
   ]
 };
 
-// Brand New Content Creation Data
+// Brand New Content Creation Data (Left unchanged)
 export const contentCreation = {
   badge: "Cinematic Content",
   heading: "Creative Direction & Cinematic Edits",
@@ -169,7 +161,7 @@ export const contentCreation = {
   ]
 };
 
-// Brand New Leadership Data
+// Brand New Leadership Data (Left unchanged)
 export const leadershipList = [
   {
     title: "IEEE Madhya Pradesh Section (Social Media Team)",
@@ -206,29 +198,15 @@ export const leadershipList = [
 // Brand New Internships Data
 export const internshipsList = [
   {
-    organization: "Netlink, Bhopal",
-    role: "Data Analytics & BI Tools Intern",
-    duration: "June 2025 - August 2025",
-    skills: ["Data Analytics", "Business Intelligence", "Dashboard Design", "Data Modeling"],
-    tech: ["Lumenore", "MySQL", "Excel", "BI Tools"]
-  },
-  {
-    organization: "Canva",
-    role: "Visual Content Creator & Designer",
-    duration: "May 2024 - June 2024",
-    skills: ["Visual Designing", "Poster Design", "Team Branding", "Asset Creation"],
-    tech: ["Canva Pro", "Figma", "Canva Design Suite"]
-  },
-  {
-    organization: "CollegeTips.in",
-    role: "Web Development Intern",
-    duration: "1 Month (Offline)",
-    skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+    organization: "Restaverse",
+    role: "Software Development Engineer Intern",
+    duration: "January 2026 – May 2026",
+    skills: ["Frontend Development", "Mobile Development", "API Integration", "Database Optimization"],
+    tech: ["React.js", "React Native", "FastAPI", "Node.js", "MongoDB"]
   }
 ];
 
-// Brand New Soft Skills Data
+// Brand New Soft Skills Data (Left unchanged)
 export const softSkillsList = [
   { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
   { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
@@ -242,55 +220,59 @@ export const softSkillsList = [
 
 export const projects = [
   {
-    id: "foodmesh",
+    id: "zippycart",
     number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
+    badge: "🚀 Grocery Platform",
+    title: "ZippyCart",
     description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
-    techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
-    ],
+      "Real-time grocery delivery platform — JWT auth, live product catalog, cart management, payment integration, and order tracking. Deployed on cloud infra.",
+    techTags: ["React", "Node.js", "MongoDB", "Express"],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
-      demo: null,
+      github: "https://github.com/rahulkumar86920/Zippy_Cart",
+      frontendDemo: "https://zippy-cart-frontend.onrender.com",
+      backendApi: "https://zippy-cart-backend.onrender.com",
     },
     isFlagship: true,
   },
   {
-    id: "karigar",
+    id: "zoomify",
     number: "02",
     badge: null,
-    title: "Karigar",
+    title: "Zoomify",
     description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
+      "Peer-to-peer video conferencing — HD video/audio, screen sharing, real-time chat, collaborative whiteboard, STUN/TURN for NAT traversal.",
+    techTags: ["WebRTC", "Socket.IO", "React", "Node.js"],
     links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
+      github: "https://github.com/rahulkumar86920/Zoomify",
+      demo: "https://zoomify-frontend-3pov.onrender.com/",
     },
     isFlagship: false,
   },
   {
-    id: "sentiment-analysis",
+    id: "datalens",
     number: "03",
     badge: null,
-    title: "AI-Powered Sentiment Analysis",
+    title: "DataLens",
     description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
+      "Automated data extraction engine — static + JS-rendered pages, dedup, validation, MongoDB storage, CSV/JSON export. 99.5% accuracy.",
+    techTags: ["Python", "Selenium", "BeautifulSoup", "MongoDB"],
     links: {
-      github: "#", // Update when available
+      github: "https://github.com/rahulkumar86920/DataLens",
+      demo: "https://data-lens-tau.vercel.app/",
+    },
+    isFlagship: false,
+  },
+  {
+    id: "sweetshop",
+    number: "04",
+    badge: null,
+    title: "Sweet Shop",
+    description:
+      "Role-based inventory + billing system — real-time stock tracking, GST invoice generation, sales analytics. Cuts manual errors by 60%.",
+    techTags: ["React", "Express", "MongoDB", "Node.js"],
+    links: {
+      github: "https://github.com/rahulkumar86920/sweet_shop_management",
+      demo: "https://github.com/rahulkumar86920",
     },
     isFlagship: false,
   },
@@ -334,26 +316,25 @@ export const certificates = {
 };
 
 export const education = {
-  degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
-  graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
+  degree: "B.Sc. – Information Technology",
+  institution: "D.G. Ruparel College, Mumbai",
+  cgpa: "N/A",
+  graduation: "2026",
+  twelfth: "12th Science – N/A",
+  tenth: "10th CBSE – N/A",
 };
 
 export const footerContent = {
   taglines: [
-    "Software Engineering & Web Dev",
-    "Java · Spring Boot · React",
-    "Full Stack Applications",
+    "Software Development & Full Stack",
+    "MERN Stack · React Native · FastAPI",
+    "High Performance Applications",
   ],
-  credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+  credential: "B.Sc. IT Graduate '26",
+  copyright: `© ${new Date().getFullYear()} Rahul Kumar | Built with React`,
 };
 
-// EmailJS Configuration
-// Will read directly from environment variables in Vite (starting with VITE_)
+// EmailJS Configuration (Left unchanged)
 export const emailjsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_EMAILJS_SERVICE_ID",
   templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_EMAILJS_TEMPLATE_ID",
