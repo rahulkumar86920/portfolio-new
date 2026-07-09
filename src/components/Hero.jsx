@@ -6,7 +6,7 @@ import { heroContent, personalInfo, socialLinks } from '../data/portfolioData';
 
 const Hero = () => {
   const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
 
   useEffect(() => {
@@ -16,27 +16,31 @@ const Hero = () => {
       easing: 'ease-out'
     });
 
-    if (videoRef.current) {
-      videoRef.current.play()
-        .then(() => {
-          setIsPlaying(true);
-        })
-        .catch((error) => {
-          console.log("Unmuted autoplay blocked, attempting muted autoplay:", error);
-          if (videoRef.current) {
-            videoRef.current.muted = true;
-            setIsMuted(true);
-            videoRef.current.play()
-              .then(() => {
-                setIsPlaying(true);
-              })
-              .catch((err) => {
-                console.log("Muted autoplay also blocked:", err);
-                setIsPlaying(false);
-              });
-          }
-        });
-    }
+    const playTimer = setTimeout(() => {
+      if (videoRef.current) {
+        videoRef.current.play()
+          .then(() => {
+            setIsPlaying(true);
+          })
+          .catch((error) => {
+            console.log("Unmuted autoplay blocked, attempting muted autoplay:", error);
+            if (videoRef.current) {
+              videoRef.current.muted = true;
+              setIsMuted(true);
+              videoRef.current.play()
+                .then(() => {
+                  setIsPlaying(true);
+                })
+                .catch((err) => {
+                  console.log("Muted autoplay also blocked:", err);
+                  setIsPlaying(false);
+                });
+            }
+          });
+      }
+    }, 3400); // Wait for the Preloader fill (1.6s + 0.2s delay) + exit slide-up transition (1.2s) to finish
+
+    return () => clearTimeout(playTimer);
   }, []);
 
   const toggleVideo = (e) => {
