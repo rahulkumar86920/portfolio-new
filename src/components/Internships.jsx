@@ -70,7 +70,7 @@ const Internships = () => {
             Work Experience
           </h2>
           <p className="text-red-100 text-base md:text-lg font-semibold max-w-lg mx-auto">
-            Practical internships where I applied engineering principles and built real-world assets.
+            Practical Work where I applied engineering principles and built real-world assets.
           </p>
         </div>
 
