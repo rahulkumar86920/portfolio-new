@@ -44,12 +44,28 @@ const Contact = () => {
       emailjsConfig.publicKey !== 'YOUR_EMAILJS_PUBLIC_KEY';
 
     if (!isConfigured) {
-      // EmailJS not configured — fallback to prefilled mailto
-      const mailtoLink = `mailto:${personalInfo.emails.primary}?subject=Portfolio Contact from ${firstName} ${lastName}&body=${encodeURIComponent(`From: ${firstName} ${lastName}\nEmail: ${email}\n\n${message}`)}`;
-      window.open(mailtoLink, '_blank');
-      setStatus('success');
-      formRef.current.reset();
-      setTimeout(() => setStatus('idle'), 3000);
+      // EmailJS not configured — fallback to Formspree API submission
+      try {
+        const response = await fetch('https://formspree.io/f/meedyzdq', {
+          method: 'POST',
+          body: new FormData(formRef.current),
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          setStatus('success');
+          formRef.current.reset();
+        } else {
+          setStatus('error');
+        }
+      } catch (err) {
+        console.error('Formspree Submit Error:', err);
+        setStatus('error');
+      }
+
+      setTimeout(() => setStatus('idle'), 4000);
       return;
     }
 
