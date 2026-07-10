@@ -29,19 +29,22 @@ export const heroContent = {
   greeting: "Hi, I'm Rahul Kumar",
   titleHighlight: "Software Developer",
   subtitle:
-    "I build fast, scalable applications using React, React Native, MERN Stack, and FastAPI.",
+    "Building scalable web and mobile applications with React, React Native, Node.js, and FastAPI.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
     href: "#contact",
   },
-  ctaResume: { text: "Download Resume", href: "https://drive.google.com/file/d/1LtXh19VvJwXxunKSMnKEOLt8MPR6zUTJ/view?usp=drive_link" },
+  ctaResume: {
+    text: "Download Resume",
+    href: "https://drive.google.com/file/d/1LtXh19VvJwXxunKSMnKEOLt8MPR6zUTJ/view?usp=drive_link",
+  },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Rahul Kumar</span>, a software developer based in Mumbai, India, dedicated to crafting clean, functional, and highly scalable full-stack and mobile applications.<br/><br/>I'm a developer who gets things done. Whether it's building a real-time video app with WebRTC, scraping thousands of data points with Python, or shipping mobile features with React Native — I don't overthink it, I just build it. I care about clean code, fast products, and working with passionate teams.`,
-  techStack: ["React", "React Native", "FastAPI"],
+  bio: `Hi, I'm <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Rahul Kumar</span>, a Software Developer based in Mumbai, India. I enjoy building scalable web and mobile applications using modern technologies like React.js, React Native, Node.js, and FastAPI.<br/><br/>During my internship at Restaverse, I worked on developing frontend features, integrating REST APIs, and contributing to backend development. I enjoy solving real-world problems, writing clean and maintainable code, and continuously learning new technologies.`,
+  techStack: ["React", "React Native", "Node.js", "FastAPI"],
 };
 
 export const skillsContent = {
