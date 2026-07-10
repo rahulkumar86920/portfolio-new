@@ -202,8 +202,29 @@ export const internshipsList = [
     organization: "Restaverse",
     role: "Software Development Engineer Intern",
     duration: "January 2026 – May 2026",
-    skills: ["Frontend Development", "Mobile Development", "API Integration", "Database Optimization"],
-    tech: ["React.js", "React Native", "FastAPI", "Node.js", "MongoDB"]
+
+    skills: [
+      "Developed web and mobile features using React.js and React Native.",
+      "Integrated REST APIs with frontend applications.",
+      "Built reusable UI components for scalable development.",
+      "Worked with Node.js, FastAPI, and MySql on backend features.",
+      "Fixed bugs and optimized application performance.",
+      "Collaborated using Git, GitHub, and Agile workflows."
+    ],
+
+    tech: [
+      "React.js",
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "FastAPI",
+      "MongoDB",
+      "REST APIs",
+      "Git",
+      "GitHub",
+      "Tailwind CSS",
+      "MySql"
+    ]
   }
 ];
 
