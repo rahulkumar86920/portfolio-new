@@ -282,34 +282,34 @@ export const projects = [
 export const certificates = {
   featured: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
-      icon: "☁️",
-    },
-    {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
+      name: "Java Programming Masterclass",
+      issuer: "Apna College",
       icon: "☕",
     },
     {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
+      name: "MERN Stack Web Development",
+      issuer: "Apna College",
+      icon: "⚛️",
     },
     {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
+      name: "C Programming",
+      issuer: "Simplilearn",
+      icon: "💻",
     },
     {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
+      name: "Git & GitHub",
+      issuer: "Great Learning",
+      icon: "🔧",
     },
     {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
+      name: "SQL & PostgreSQL",
+      issuer: "Great Learning",
+      icon: "🗄️",
+    },
+    {
+      name: "REST API Development",
+      issuer: "Infosys Springboard",
+      icon: "🌐",
     },
   ],
   viewAllUrl:
